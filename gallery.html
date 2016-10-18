@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Gallery | Ami & Harsh</title>
+
+    
+  <!-- Tab Icon -->
+  <link rel="icon" href="img/proposals.png">
+    
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-74434750-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+  <nav class="red darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Ami Weds Harsh</a>
+        <ul class="right hide-on-med-and-down">
+          <li class="waves-effect waves-light"><a onclick="goBack()">GO BACK</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav red darken-4">
+          <li class="waves-effect waves-light"><a onclick="goBack()">GO BACK</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
+    </div>
+  </nav>
+  <div class="slider fullscreen">
+    <ul class="slides">
+      <li>
+        <img class= "responsive-img" src="img/disclaimer.png">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/1.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/2.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/3.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/4.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/5.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/6.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/7.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/8.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/9.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/10.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/11.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/12.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/13.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/14.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/15.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/16.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/17.jpg">
+      </li>
+      <li>
+        <img class= "responsive-img" src="img/18.jpg">
+      </li>
+    </ul>
+  </div>
+<!--
+    <img class= "materialboxed responsive-img" src="img/1.jpg">
+    <img class= "materialboxed responsive-img" src="img/2.jpg">
+    <img class= "materialboxed responsive-img" src="img/3.jpg">
+    <img class= "materialboxed responsive-img" src="img/4.jpg">
+    <img class= "materialboxed responsive-img" src="img/5.jpg">
+    <img class= "materialboxed responsive-img" src="img/6.jpg">
+    <img class= "materialboxed responsive-img" src="img/7.jpg">
+    <img class= "materialboxed responsive-img" src="img/8.jpg">
+    <img class= "materialboxed responsive-img" src="img/9.jpg">
+    <img class= "materialboxed responsive-img" src="img/10.jpg">
+    <img class= "materialboxed responsive-img" src="img/11.jpg">
+    <img class= "materialboxed responsive-img" src="img/12.jpg">
+    <img class= "materialboxed responsive-img" src="img/13.jpg">
+    <img class= "materialboxed responsive-img" src="img/14.jpg">
+    <img class= "materialboxed responsive-img" src="img/15.jpg">
+    <img class= "materialboxed responsive-img" src="img/16.jpg">
+    <img class= "materialboxed responsive-img" src="img/17.jpg">
+    <img class= "materialboxed responsive-img" src="img/18.jpg">
+-->
+
+  <footer class="page-footer red darken-4">
+    <div class="footer-copyright">
+      <div class="center container">
+        Made by Chris Gala
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script>
+  $(document).ready(function(){
+      $('.slider').slider({
+        full_width: true,
+        indicators: false,
+        interval: 2750
+      });
+  });
+  function goBack() {
+    window.history.back();
+  }
+  </script>
+  
+  </body>
+</html>
