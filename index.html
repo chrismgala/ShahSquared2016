@@ -17,19 +17,69 @@
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-  
+
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-74434750-1', 'auto');
     ga('send', 'pageview');
 
   </script>
+
 </head>
 <body>
+  <!-- Modal Structure -->
+  <div id="important" class="modal center-align">
+    <div class="modal-content">
+      <h4>Please read <i class="fa fa-exclamation-circle" aria-hidden="true"></i></h4>
+      <p>
+        Hello Family & Friends!
+        <br><br>
+        As our big day approaches, we wanted to provide some additional details on items we've gotten some questions about. Please share this info with any guests that might find this helpful.
+        <br><br>
+        <b>Thursday, November 24th</b>
+        <br><br>
+        First off, we'd like to welcome you all to LA with an informal 'Thanksgiving" dinner on Thursday night.  We will be getting dinner delivered to our Airbnb which is less than a 1/2 mile from the Marriott hotel (address below).  We know most people will be arriving at different times throughout the day and will be getting settled in for the weekend, so please feel free to stay as little or as long as you would like. If you need transportation back and forth from the hotel, please do let us know!
+        <br><br>
+        <b>Friday, November 25th</b>
+        <br><br>
+        For Harsh's family, there will be a Mandap Muhurat ceremony starting at 8:30AM followed by his Pithi Vidhi. Both will take place in one of the suites at the Marriott (the room number is still TBD, but we will get this info out once available). Breakfast will be served during this time as well.
+        <br><br>
+        For our Mehndi Party, we've rented out an office/loft suite called Seek U (address below).  It's in the same building as the Chase Bank.  To access the space: enter through the back of the building & find the door marked "Offices & Lofts" closest to the restaurant patio. The door code is *1976 and then take the elevator up to the PH Level.  The event will take place from 11:00 AM - 1:00 PM.  We will have mehndi artists, games, and lunch for everyone to enjoy. Again, we can arrange for transportation back and forth from the hotel for those who would like.
+        <br><br>
+        For our Raas-Garba, the event will take place at the Marina City Club which is about a 1/2 mile away from the Marriott hotel. From Admiralty Way, turn onto Marina City Drive (it is a light) and you will see a guard shack. Let them know you are here for the Shah/Shah event at the Marina City Club and they will direct you to the right where you will find the complimentary valet parking.  The event will be held on the 3rd floor of the building. The event will be indoors and will take place from 6:00 PM to 10:30 PM. Be prepared to enjoy performances, dinner, and dance the night away!
+        <br><br>
+        <b>Saturday, November 26th</b>
+        <br><br>
+        We will start the day at 9:00AM with breakfast at our Airbnb once again for anyone who would like to join. The rest of the day will be spent at the Marriott hotel.  The baraat will begin promptly at 1:00PM. We kindly ask that you arrive by 12:45PM as the valet area will be blocked from that point onward. Harsh's family will gather at the far end of the driveway (where the valet entrance is) for the start. The baraat will be received by Ami's family & friends near the front entrance of the hotel at 1:30 PM.  Guests will then be directed to the top floor of the hotel where a light lunch will be served and the wedding ceremony will begin at 2:00 PM.  Please do keep in mind that both the ceremony and the cocktail hour will take place outdoors, weather permitting. The reception will begin in the Bayview Ballroom at 6:30 PM where we will spend the rest of the night with food, dance, and celebration!
+        <br><br>
+        <b>Other Notes</b>
+        Our doors are open! - Throughout the entire weekend, whether it's breakfast, extra safety pins, or you just want to chat please feel free to visit our Airbnb or give us a call!
+        Take advantage of the area - Marina del Rey, Venice, and Santa Monica are all minutes away and have so much to offer! We expect clear weather all weekend, so soak up the LA sunshine and explore!
+        Share your photos - Tag us using #shahsforever and #shahsquared2016 so we can follow the special memories you share!
+        For guests that are staying at the Marriott - please ensure you receive a welcome bag upon arrival!
+        <br><br>
+        <b>Important Addresses</b><br>
+        Airbnb : 682 Oxford Avenue, Venice, CA 90291<br>
+        Seek U : 631 Wilshire Blvd, Suite 4A, Santa Monica, CA 90401<br>
+        Marina City Club : 4333 Admiralty Way, Marina Del Rey, CA 90292<br>
+        Marriott Marina del Rey : 4100 Admiralty Way, Marina Del Rey, CA 90292<br>
+        <br><br>
+        We cannot wait to see you all in one week!
+        <br><br>
+        With Love,
+        <br><br>
+        Ami & Harsh
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Close</a>
+    </div>
+  </div>
+
   <div class="container center">
     <div class="section" id="front">
       <div id="wedding-counter" class="flow-text"></div>
@@ -49,7 +99,9 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/bin/materialize.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
   <script src="js/jquery.countdown.js"></script>
 
   <script type="text/javascript">
@@ -59,6 +111,14 @@
                                   + '<div class="col s12 m2 l2"><span><b>%H</b> HOURS</span></div>'
                                   + '<div class="col s12 m2 l2"><span><b>%M</b> MINUTES</span></div>'
                                   + '<div class="col s12 m2 l2"><span><b>%S</b> SECONDS</span></div>'));
+    });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+      $('#important').modal('open');
     });
   </script>
 
